@@ -11,7 +11,7 @@
   <a href="https://www.linkedin.com/in/thanhvinh04/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://github.com/thanhvinh04?tab=repositories">
+  <a href="https://github.com/thanhvinh04/Projects?tab=repositories">
     <img src="https://img.shields.io/badge/Projects-24292F?style=for-the-badge&logo=github&logoColor=white" />
   </a>
   <a href="https://buildportfolio-nylwg9ap7mobzir6xgpe3k.streamlit.app/">
