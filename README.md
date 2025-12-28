@@ -3,7 +3,7 @@
 </div>
 
 <h1 align="center">
-  Hi there 👋, I'm Nguyễn Thành Vinh 
+  Welcome 👋, I'm Nguyễn Thành Vinh 
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </h1>
 
@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=25&pause=500&color=1AAB40&width=850&lines=Data+Analyst+%7C+BI+Engineer+%7C+Analytics+Engineer;Python+%7C+SQL+%7C+Power+BI+%7C+Looker+Studio;Turning+Data+into+Insights+for+Better+Decisions"/>
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=25&pause=500&color=1AAB40&width=850&lines=Data+Analyst+%7C+BI+Engineer+%7C+Analytics+Engineer;Python+%7C+SQL+%7C+Power+BI+%7C+Looker+Studio+%7C+GTM+GA4+%7C+C#;Turning+Data+into+Insights+for+Better+Decisions"/>
 </p>
 
 ---
