@@ -11,7 +11,7 @@
   <a href="mailto:nguyenthanhvinh1234qn@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
-  <a href="[https://www.linkedin.com/in/your-linkedin](https://www.linkedin.com/in/thanhvinh04/)">
+  <a href="https://www.linkedin.com/in/thanhvinh04/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="https://github.com/your-github/portfolio">
