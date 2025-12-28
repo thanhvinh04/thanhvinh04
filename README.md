@@ -15,10 +15,10 @@
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="https://github.com/thanhvinh04/Projects">
-    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Projects-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white"/>
   </a>
   <a href="https://buildportfolio-nylwg9ap7mobzir6xgpe3k.streamlit.app/">
-    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Landing-Page-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white"/>
   </a>
 </p>
 
