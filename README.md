@@ -40,7 +40,7 @@ I am a **Data Analyst** with a background in **Data Science**, focusing on **dat
 
 ---
 
-## 🛠️ Skills & Tools (CV-aligned)
+## 🛠️ Skills & Tools
 
 **Programming & Query**
 - SQL, Python, C#
