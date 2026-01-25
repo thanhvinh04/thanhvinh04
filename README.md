@@ -50,8 +50,8 @@ I am a **Data Analyst** with a background in **Data Science**, focusing on **dat
 - Looker Studio
 
 **Data Analytics**
-- Data Cleaning & Transformation  
-- Data Modeling  
+- Data Pipeline  
+- Data Modeling / Data Warehouse  
 - Machine Learning  
 - Google Analytics 4 (GA4)  
 - Google Tag Manager (GTM)  
