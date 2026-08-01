@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&duration=3200&pause=900&color=22D3EE&center=true&vCenter=true&multiline=true&width=760&height=110&lines=Welcome+%F0%9F%91%8B%2C+I'm+Nguy%E1%BB%85n+Thanh+Vinh;Data+Analyst+%7C+Business+Intelligence+%7C+Supply+Chain+Analytics;Python+%7C+SQL+%7C+Power+BI+%7C+Looker+Studio+%7C+GA4%2FGTM+%7C+C%23;Turning+Raw+Data+into+Strategic+Decisions+%26+Products" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&duration=3200&pause=900&color=22D3EE&center=true&vCenter=true&multiline=true&width=760&height=110&lines=Welcome+%F0%9F%91%8B%2C+I'm+Nguyen+Thanh+Vinh;Data+Analyst+%7C+Business+Intelligence+%7C+Supply+Chain+Analytics;Python+%7C+SQL+%7C+Power+BI+%7C+Looker+Studio+%7C+GA4%2FGTM+%7C+C%23;Turning+Raw+Data+into+Strategic+Decisions+%26+Products" alt="Typing SVG" />
 
-### ⚡ Analytics Engineer • Data Analyst • Data Scientist
+### 📊 Data Analyst • Business Intelligence • Supply Chain Analytics
 
 Turning raw data into strategic decisions, dashboards, and products that move the business.
 
@@ -48,7 +48,7 @@ Currently working as a **Data Analyst at PNJ Group**, focusing on **Luxury Jewel
 <!-- ---------- PNJ ---------- -->
 <div style="background:#0a1410; border:1px solid rgba(52,211,153,0.3); border-radius:14px; padding:20px 24px; position:relative;">
 
-**<span style="color:#34d399;">PNJ Group</span>** • **Data Analyst** — *Full-time*
+**<span style="color:#34d399;">PNJ Group</span>** • **Data Analyst**
 
 <span style="background:rgba(6,78,59,0.6); border:1px solid rgba(52,211,153,0.4); color:#34d399; border-radius:8px; padding:2px 10px; font-size:12px; font-weight:700;">CURRENT</span> <span style="background:#0f172a; border:1px solid #334155; color:#cbd5e1; border-radius:8px; padding:2px 10px; font-size:12px;">📅 05/2026 — PRESENT</span>
 
@@ -61,7 +61,7 @@ Currently working as a **Data Analyst at PNJ Group**, focusing on **Luxury Jewel
 <!-- ---------- Lucky Star ---------- -->
 <div style="background:#0a1410; border:1px solid rgba(52,211,153,0.3); border-radius:14px; padding:20px 24px;">
 
-**<span style="color:#34d399;">Lucky Star Vietnam Garment Co., Ltd</span>** • **Data Analyst** — *Full-time*
+**<span style="color:#34d399;">Lucky Star Vietnam Garment Co., Ltd</span>** • **Data Analyst**
 
 <span style="background:#0f172a; border:1px solid #334155; color:#cbd5e1; border-radius:8px; padding:2px 10px; font-size:12px;">📅 07/2025 — 05/2026</span>
 
@@ -106,12 +106,12 @@ Currently working as a **Data Analyst at PNJ Group**, focusing on **Luxury Jewel
 | Python / Pandas / PySpark | Power BI / DAX / Data Modeling | Data Warehouse Design |
 | SQL (Complex Queries, Indexing) | Looker Studio / Superset | Partition Processing & ETL Pipelines |
 | Mathematical Statistics (4.0/4.0) | Google Analytics 4 (GA4) & GTM | Machine Learning |
-| C# /.NET | | AI Application |
+|  |  | AI Application |
 
 <br/>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,postgres,mysql,csharp,git,github" alt="Skills" />
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,postgres,mysql,git,github" alt="Skills" />
 </p>
 
 <p align="center">
