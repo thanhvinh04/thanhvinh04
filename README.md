@@ -48,21 +48,35 @@ I build end-to-end data solutions—from data modeling and ETL pipelines to Powe
 
 # 🛠 Tech Stack
 
-### Languages
+### 💻 Programming
 
-Python • SQL • C#
+<p>
+<img src="https://skillicons.dev/icons?i=python,mysql,cs" />
+</p>
 
-### Business Intelligence
+### 📊 Business Intelligence
 
-Power BI • DAX • Looker Studio
+<p>
+<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+<img src="https://img.shields.io/badge/DAX-2563EB?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Looker%20Studio-4285F4?style=for-the-badge&logo=looker&logoColor=white"/>
+</p>
 
-### Data Engineering
+### 🏗 Data Engineering
 
-Data Warehouse • ETL • PySpark
+<p>
+<img src="https://skillicons.dev/icons?i=postgres,mysql" />
+</p>
 
-### Machine Learning
+`Data Warehouse` • `ETL` • `PySpark`
 
-TensorFlow • Scikit-learn • XGBoost
+### 🤖 Machine Learning
+
+<p>
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch" />
+</p>
+
+`Scikit-learn` • `XGBoost`
 
 ---
 
@@ -86,11 +100,8 @@ GPA: **3.95 / 4.0**
 
 # 🏆 Highlights
 
-- 🥇 UIT Data Science Challenge 2024
-- 📊 Built Enterprise BI Platform
-- ⚡ Automated reporting by 95%
-- 📦 200M+ records processed
-
+- 🥇 1st Prize Business Analyst Competition
+- 🥈 2nd Prize Economics Debate Competition
 ---
 
 # 📫 Contact
