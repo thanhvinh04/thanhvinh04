@@ -59,7 +59,7 @@ flowchart LR
 
     MODEL["🏛️ Data Modeling<br/><sub>Data Warehouse • Star Schema • DAX</sub>"]
 
-    BI["📊 Analytics & Visualization<br/><sub>Power BI • Looker Studio • Reports</sub>"]
+    BI["📊 Analytics & Visualization<br/><sub>Power BI • Looker Studio • Superset</sub>"]
 
     ML["🤖 ML Applications<br/><sub>Forecasting • Classification • Recommendation</sub>"]
 
