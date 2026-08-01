@@ -61,7 +61,7 @@ flowchart LR
 
     BI["📊 Analytics & Visualization<br/><sub>Power BI • Looker Studio • Superset</sub>"]
 
-    ML["🤖 ML Applications<br/><sub>Forecasting • Classification • Recommendation</sub>"]
+    ML["🤖 ML Applications<br/><sub>Forecasting • Classification</sub>"]
 
     OPS["📡 Monitoring & Alerting<br/><sub>KPI Monitoring • Alerts • Data Quality</sub>"]
 
