@@ -66,21 +66,7 @@ TensorFlow • Scikit-learn • XGBoost
 
 ---
 
-# 📈 GitHub Analytics
-
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=thanhvinh04&show_icons=true&theme=transparent&hide_border=true" width="430"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thanhvinh04&layout=compact&theme=transparent&hide_border=true" width="320"/>
-</p>
-
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=thanhvinh04&theme=github-light&hide_border=true"/>
-</p>
-
----
-
-# 🐍 Contribution Snake
+# 🐍 Contribution
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/thanhvinh04/thanhvinh04/output/github-contribution-grid-snake.svg"/>
