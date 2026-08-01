@@ -48,37 +48,25 @@ I build end-to-end data solutions—from data modeling and ETL pipelines to Powe
 
 # 🛠 Tech Stack
 
-### 💻 Programming
+## 🔄 Data Pipeline
 
-<p>
-<img src="https://skillicons.dev/icons?i=python,mysql,cs" />
-</p>
+```mermaid
+flowchart LR
+    SRC["📥 SOURCES<br/><sub>ERP • API • SQL</sub>"] --> PY["🐍 PYTHON<br/><sub>Pandas • PySpark • ETL</sub>"]
+    PY --> DW["🏗 DATA WAREHOUSE<br/><sub>Partitioned DW • 200M+ Records</sub>"]
+    DW --> BI["📊 POWER BI<br/><sub>DAX • Real-time Dashboards</sub>"]
+    BI --> ML["🤖 ML MODELS<br/><sub>TensorFlow • XGBoost • CLIP</sub>"]
+    ML --> VAL["💼 BUSINESS VALUE<br/><sub>Data-driven Decisions</sub>"]
 
-### 📊 Business Intelligence
+    style SRC fill:#ffffff,stroke:#38bdf8,stroke-width:2px,color:#0f172a
+    style PY fill:#ffffff,stroke:#6366f1,stroke-width:2px,color:#0f172a
+    style DW fill:#ffffff,stroke:#8b5cf6,stroke-width:2px,color:#0f172a
+    style BI fill:#ffffff,stroke:#f59e0b,stroke-width:2px,color:#0f172a
+    style ML fill:#ffffff,stroke:#ec4899,stroke-width:2px,color:#0f172a
+    style VAL fill:#ffffff,stroke:#34d399,stroke-width:2px,color:#0f172a
+```
 
-<p>
-<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
-<img src="https://img.shields.io/badge/DAX-2563EB?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Looker%20Studio-4285F4?style=for-the-badge&logo=looker&logoColor=white"/>
-</p>
-
-### 🏗 Data Engineering
-
-<p>
-<img src="https://skillicons.dev/icons?i=postgres,mysql" />
-</p>
-
-`Data Warehouse` • `ETL` • `PySpark`
-
-### 🤖 Machine Learning
-
-<p>
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch" />
-</p>
-
-`Scikit-learn` • `XGBoost`
-
----
+<br/>
 
 # 🐍 Contribution
 
