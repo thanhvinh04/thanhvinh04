@@ -6,23 +6,27 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+
     permissions:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-      - uses: Platane/snk@v3
+      - name: Generate Snake
+        uses: Platane/snk@v3
         with:
           github_user_name: thanhvinh04
           outputs: |
-            dist/github-contribution-grid-snake.svg?palette=#ffffff,#f8fbff,#dbeafe,#93c5fd,#60a5fa&color_snake=#2563eb
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#60a5fa
+            dist/github-contribution-grid-snake.svg?palette=#ebedf0,#dbeafe,#93c5fd,#60a5fa,#2563eb&color_snake=#1d4ed8
+            dist/github-contribution-grid-snake-dark.svg?palette=#161b22,#1f2937,#2563eb,#3b82f6,#60a5fa&color_snake=#93c5fd
 
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
