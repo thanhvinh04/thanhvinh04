@@ -66,40 +66,6 @@ TensorFlow • Scikit-learn • XGBoost
 
 ---
 
-# ⭐ Featured Projects
-
-## 📊 Order Traceability Platform
-
-Enterprise BI platform for manufacturing.
-
-- 200M+ production records
-- End-to-end Data Warehouse
-- Power BI Dashboard
-- Reduced reporting time by 95%
-
----
-
-## 🧠 Multimodal Sarcasm Detection
-
-Winner of UIT Data Science Challenge 2024.
-
-- OCR
-- CLIP
-- CNN + Self Attention
-
----
-
-## 🏎 F1 Race Prediction
-
-Big Data pipeline using PySpark.
-
-- Data Collection
-- Feature Engineering
-- Machine Learning
-- Prediction Dashboard
-
----
-
 # 📈 GitHub Analytics
 
 <p align="center">
