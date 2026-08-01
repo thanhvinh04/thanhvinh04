@@ -55,7 +55,7 @@ flowchart LR
 
     SRC["📥 Data Sources<br/><sub>ERP • MES • API • SQL Server</sub>"]
 
-    PREP["🔄 Data Preparation<br/><sub>Python • SQL • ETL • Data Cleaning</sub>"]
+    PREP["🔄 Data Pipeline<br/><sub>Python • SQL • ETL • Data Cleaning</sub>"]
 
     MODEL["🏛️ Data Modeling<br/><sub>Data Warehouse • Star Schema • DAX</sub>"]
 
