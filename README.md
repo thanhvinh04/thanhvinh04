@@ -46,27 +46,41 @@ I build end-to-end data solutions—from data modeling and ETL pipelines to Powe
 
 ---
 
-# 🛠 Tech Stack
-
-## 🔄 Data Pipeline
+# 🛠 Data Pipeline
 
 ```mermaid
 flowchart LR
-    SRC["📥 SOURCES<br/><sub>ERP • API • SQL</sub>"] --> PY["🐍 PYTHON<br/><sub>Pandas • PySpark • ETL</sub>"]
-    PY --> DW["🏗 DATA WAREHOUSE<br/><sub>Partitioned DW • 200M+ Records</sub>"]
-    DW --> BI["📊 POWER BI<br/><sub>DAX • Real-time Dashboards</sub>"]
-    BI --> ML["🤖 ML MODELS<br/><sub>TensorFlow • XGBoost • CLIP</sub>"]
-    ML --> VAL["💼 BUSINESS VALUE<br/><sub>Data-driven Decisions</sub>"]
 
+    REQ["🎯 Business Understanding<br/><sub>Gather Requirements • Define KPIs</sub>"]
+
+    SRC["📥 Data Sources<br/><sub>ERP • MES • API • SQL Server</sub>"]
+
+    ENG["⚙️ Data Engineering<br/><sub>Python • SQL • C#</sub>"]
+
+    DWH["🏛️ Data Platform<br/><sub>ETL • Data Warehouse • Data Modeling</sub>"]
+
+    BI["📊 Analytics & BI<br/><sub>Power BI • DAX • Looker Studio</sub>"]
+
+    ML["🤖 ML Applications<br/><sub>Forecasting • Classification • Recommendation</sub>"]
+
+    VAL["💼 Business Impact<br/><sub>Insights • Automation • Decision Making</sub>"]
+
+    REQ --> SRC
+    SRC --> ENG
+    ENG --> DWH
+    DWH --> BI
+    DWH --> ML
+    BI --> VAL
+    ML --> VAL
+
+    style REQ fill:#ffffff,stroke:#ef4444,stroke-width:2px,color:#0f172a
     style SRC fill:#ffffff,stroke:#38bdf8,stroke-width:2px,color:#0f172a
-    style PY fill:#ffffff,stroke:#6366f1,stroke-width:2px,color:#0f172a
-    style DW fill:#ffffff,stroke:#8b5cf6,stroke-width:2px,color:#0f172a
+    style ENG fill:#ffffff,stroke:#6366f1,stroke-width:2px,color:#0f172a
+    style DWH fill:#ffffff,stroke:#8b5cf6,stroke-width:2px,color:#0f172a
     style BI fill:#ffffff,stroke:#f59e0b,stroke-width:2px,color:#0f172a
     style ML fill:#ffffff,stroke:#ec4899,stroke-width:2px,color:#0f172a
     style VAL fill:#ffffff,stroke:#34d399,stroke-width:2px,color:#0f172a
 ```
-
-<br/>
 
 # 🐍 Contribution
 
