@@ -46,41 +46,6 @@ I build end-to-end data solutions—from data modeling and ETL pipelines to Powe
 
 ---
 
-# 💼 Experience
-
-## PNJ Group — Data Analyst
-
-Luxury Jewelry Supply Chain
-
-- Production & Inventory Analytics
-- Executive KPI Dashboard
-- Supply Chain Performance Monitoring
-
----
-
-## Lucky Star Vietnam — Data Analyst
-
-- Built Enterprise Order Traceability Platform
-- Processed 200M+ records
-- Reduced reporting time by 95%
-
----
-
-## Asia Flames Vietnam — Data Analyst
-
-- GA4 & Google Tag Manager
-- Looker Studio Dashboard
-- Internal Business Reporting
-
----
-
-## Transcosmos Vietnam — Data Scientist Intern
-
-- NLP & Sentiment Analysis
-- TensorFlow Deep Learning
-
----
-
 # 🛠 Tech Stack
 
 ### Languages
