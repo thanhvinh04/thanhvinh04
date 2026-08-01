@@ -55,31 +55,35 @@ flowchart LR
 
     SRC["📥 Data Sources<br/><sub>ERP • MES • API • SQL Server</sub>"]
 
-    ENG["⚙️ Data Engineering<br/><sub>Python • SQL • C#</sub>"]
+    PREP["🔄 Data Preparation<br/><sub>Python • SQL • ETL • Data Cleaning</sub>"]
 
-    DWH["🏛️ Data Platform<br/><sub>ETL • Data Warehouse • Data Modeling</sub>"]
+    MODEL["🏛️ Data Modeling<br/><sub>Data Warehouse • Star Schema • DAX</sub>"]
 
-    BI["📊 Analytics & BI<br/><sub>Power BI • DAX • Looker Studio</sub>"]
+    BI["📊 Analytics & Visualization<br/><sub>Power BI • Looker Studio • Reports</sub>"]
 
     ML["🤖 ML Applications<br/><sub>Forecasting • Classification • Recommendation</sub>"]
 
-    VAL["💼 Business Impact<br/><sub>Insights • Automation • Decision Making</sub>"]
+    OPS["📡 Monitoring & Alerting<br/><sub>KPI Monitoring • Alerts • Data Quality</sub>"]
+
+    IMP["💼 Business Impact<br/><sub>Insights • Decisions • Process Improvement</sub>"]
 
     REQ --> SRC
-    SRC --> ENG
-    ENG --> DWH
-    DWH --> BI
-    DWH --> ML
-    BI --> VAL
-    ML --> VAL
+    SRC --> PREP
+    PREP --> MODEL
+    MODEL --> BI
+    MODEL --> ML
+    BI --> OPS
+    ML --> OPS
+    OPS --> IMP
 
     style REQ fill:#ffffff,stroke:#ef4444,stroke-width:2px,color:#0f172a
     style SRC fill:#ffffff,stroke:#38bdf8,stroke-width:2px,color:#0f172a
-    style ENG fill:#ffffff,stroke:#6366f1,stroke-width:2px,color:#0f172a
-    style DWH fill:#ffffff,stroke:#8b5cf6,stroke-width:2px,color:#0f172a
+    style PREP fill:#ffffff,stroke:#6366f1,stroke-width:2px,color:#0f172a
+    style MODEL fill:#ffffff,stroke:#8b5cf6,stroke-width:2px,color:#0f172a
     style BI fill:#ffffff,stroke:#f59e0b,stroke-width:2px,color:#0f172a
     style ML fill:#ffffff,stroke:#ec4899,stroke-width:2px,color:#0f172a
-    style VAL fill:#ffffff,stroke:#34d399,stroke-width:2px,color:#0f172a
+    style OPS fill:#ffffff,stroke:#06b6d4,stroke-width:2px,color:#0f172a
+    style IMP fill:#ffffff,stroke:#22c55e,stroke-width:2px,color:#0f172a
 ```
 
 # 🐍 Contribution
