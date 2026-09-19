@@ -19,7 +19,7 @@ Turning raw data into business decisions through analytics, automation, and scal
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
-<a href="[https://thanhvinh04.vercel.app](https://thanhvinh04.vercel.app?src=github)">
+<a href="https://thanhvinh04.vercel.app?src=github">
 <img src="https://img.shields.io/badge/Portfolio-22d3ee?style=for-the-badge&logo=vercel&logoColor=black"/>
 </a>
 </p>
