@@ -2,7 +2,7 @@
 
 # Nguyen Thanh Vinh
 
-### Data Analyst • Business Intelligence • Supply Chain Analytics
+### Data And Analytics • Business Intelligence
 
 Turning raw data into business decisions through analytics, automation, and scalable data solutions.
 
