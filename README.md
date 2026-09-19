@@ -2,7 +2,7 @@
 
 # Nguyen Thanh Vinh
 
-### Data And Analytics • Business Intelligence
+### Data Analyst • Business Intelligence
 
 Turning raw data into business decisions through analytics, automation, and scalable data solutions.
 
