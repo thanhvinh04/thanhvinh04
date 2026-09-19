@@ -106,7 +106,7 @@ GPA: **3.95 / 4.0**
 
 # 🏆 Highlights
 
-- 🥇 1st Prize Business Analyst Competition
+- 🥇 1st Prize Business Analytics Competition
 - 🥈 2nd Prize Economics Debate Competition
 ---
 
