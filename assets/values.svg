@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-label="What I believe. Understand first: learn the problem deeply enough to know what is worth building. Build the source: not just a number on a report, but the system that produces it. Problem over tools: good engineering scales, but first it has to solve the business problem. Ship, then refine: start with what matters most, put it in front of people, improve from there. Still exploring: how a team keeps business speed without losing one source of truth.">
+<style>
+.f{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif}
+.k{letter-spacing:1.4px}
+</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A1A2F"/><stop offset="1" stop-color="#123A5C"/></linearGradient>
+<radialGradient id="g2" cx="0.1" cy="1" r="0.5"><stop offset="0" stop-color="#F59E0B" stop-opacity="0.18"/><stop offset="1" stop-color="#F59E0B" stop-opacity="0"/></radialGradient>
+<linearGradient id="hl" x1="0" x2="1"><stop offset="0" stop-color="#2DD4BF"/><stop offset="1" stop-color="#38BDF8"/></linearGradient>
+<clipPath id="c"><rect width="1200" height="330" rx="22"/></clipPath>
+</defs>
+<g clip-path="url(#c)">
+<rect width="1200" height="330" fill="url(#bg)"/>
+<rect width="1200" height="330" fill="url(#g2)"/>
+</g>
+
+<rect x="60" y="30" width="255" height="200" rx="16" fill="#FFFFFF" fill-opacity="0.05" stroke="#FB7185" stroke-opacity="0.4"/>
+<rect x="82" y="54" width="40" height="40" rx="12" fill="#FB7185"/>
+<text x="102" y="80" text-anchor="middle" class="f" font-size="15" font-weight="800" fill="#0A1A2F">01</text>
+<text x="82" y="128" class="f" font-size="18" font-weight="700" fill="#FFFFFF">Understand first</text>
+<text class="f" font-size="14" fill="#CBD5E1"><tspan x="82" y="158">Learn the problem deeply</tspan><tspan x="82" y="180">enough to know what is</tspan><tspan x="82" y="202">worth building.</tspan></text>
+
+<rect x="335" y="30" width="255" height="200" rx="16" fill="#FFFFFF" fill-opacity="0.05" stroke="#FBBF24" stroke-opacity="0.4"/>
+<rect x="357" y="54" width="40" height="40" rx="12" fill="#FBBF24"/>
+<text x="377" y="80" text-anchor="middle" class="f" font-size="15" font-weight="800" fill="#0A1A2F">02</text>
+<text x="357" y="128" class="f" font-size="18" font-weight="700" fill="#FFFFFF">Build the source</text>
+<text class="f" font-size="14" fill="#CBD5E1"><tspan x="357" y="158">Not just a number on a</tspan><tspan x="357" y="180">report, but the system</tspan><tspan x="357" y="202">that produces it.</tspan></text>
+
+<rect x="610" y="30" width="255" height="200" rx="16" fill="#FFFFFF" fill-opacity="0.05" stroke="#38BDF8" stroke-opacity="0.4"/>
+<rect x="632" y="54" width="40" height="40" rx="12" fill="#38BDF8"/>
+<text x="652" y="80" text-anchor="middle" class="f" font-size="15" font-weight="800" fill="#0A1A2F">03</text>
+<text x="632" y="128" class="f" font-size="18" font-weight="700" fill="#FFFFFF">Problem over tools</text>
+<text class="f" font-size="14" fill="#CBD5E1"><tspan x="632" y="158">Good engineering scales.</tspan><tspan x="632" y="180">But first, it has to solve</tspan><tspan x="632" y="202">the business problem.</tspan></text>
+
+<rect x="885" y="30" width="255" height="200" rx="16" fill="#FFFFFF" fill-opacity="0.05" stroke="#2DD4BF" stroke-opacity="0.4"/>
+<rect x="907" y="54" width="40" height="40" rx="12" fill="#2DD4BF"/>
+<text x="927" y="80" text-anchor="middle" class="f" font-size="15" font-weight="800" fill="#0A1A2F">04</text>
+<text x="907" y="128" class="f" font-size="18" font-weight="700" fill="#FFFFFF">Ship, then refine</text>
+<text class="f" font-size="14" fill="#CBD5E1"><tspan x="907" y="158">Start with what matters</tspan><tspan x="907" y="180">most, put it in front of</tspan><tspan x="907" y="202">people, improve from there.</tspan></text>
+
+<rect x="60" y="250" width="1080" height="54" rx="14" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.08"/>
+<rect x="60" y="250" width="4" height="54" rx="2" fill="url(#hl)"/>
+<text x="86" y="282" class="f k" font-size="11.5" font-weight="700" fill="#5EEAD4">STILL EXPLORING</text>
+<text x="222" y="283" class="f" font-size="16" fill="#E2E8F0">How a team keeps business speed without losing one source of truth.</text>
+</svg>
