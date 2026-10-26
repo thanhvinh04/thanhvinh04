@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="Work timeline and impact">
+<style>.f{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif}</style>
+<defs><linearGradient id="now" x1="0" x2="1"><stop offset="0.6" stop-color="#2F9C8F"/><stop offset="1" stop-color="#2F9C8F" stop-opacity="0.15"/></linearGradient></defs>
+<rect x="1" y="1" width="1198" height="438" rx="20" fill="#F3F7FA" stroke="#D3DFE8"/>
+<line x1="60" y1="66" x2="1140" y2="66" stroke="#D3DFE8" stroke-width="2"/>
+<line x1="291.4" y1="58" x2="291.4" y2="74" stroke="#5A7184" stroke-width="1.5"/>
+<text x="291.4" y="44" text-anchor="middle" class="f" font-size="13" fill="#5A7184">2025</text>
+<line x1="754.3" y1="58" x2="754.3" y2="74" stroke="#5A7184" stroke-width="1.5"/>
+<text x="754.3" y="44" text-anchor="middle" class="f" font-size="13" fill="#5A7184">2026</text>
+<rect x="62.0" y="58" width="150.3" height="16" rx="8" fill="#9DB4C5"/>
+<path d="M137.1 74 V100 H68 V118" fill="none" stroke="#9DB4C5" stroke-width="1.5"/>
+<circle cx="68" cy="120" r="4" fill="#9DB4C5"/>
+<text x="60" y="150" class="f" font-size="13" fill="#5A7184">07/2024 – 10/2024</text>
+<text x="60" y="178" class="f" font-size="19" font-weight="700" fill="#13293D">Transcosmos Vietnam</text>
+<text x="60" y="202" class="f" font-size="15" font-weight="600" fill="#2E6F95">Data Scientist Intern</text>
+<text x="60" y="232" class="f" font-size="14" fill="#5A7184">Review data prep for</text>
+<text x="60" y="253" class="f" font-size="14" fill="#5A7184">sentiment and aspect models</text>
+<rect x="370.6" y="58" width="150.3" height="16" rx="8" fill="#6C8FA8"/>
+<path d="M445.7 74 V100 H343 V118" fill="none" stroke="#6C8FA8" stroke-width="1.5"/>
+<circle cx="343" cy="120" r="4" fill="#6C8FA8"/>
+<text x="335" y="150" class="f" font-size="13" fill="#5A7184">03/2025 – 06/2025</text>
+<text x="335" y="178" class="f" font-size="19" font-weight="700" fill="#13293D">Asia Flames</text>
+<text x="335" y="202" class="f" font-size="15" font-weight="600" fill="#6C8FA8">Data Analyst Intern</text>
+<text x="335" y="232" class="f" font-size="14" fill="#5A7184">GTM / GA4 tracking and</text>
+<text x="335" y="253" class="f" font-size="14" fill="#5A7184">Looker Studio dashboards</text>
+<rect x="524.9" y="58" width="381.7" height="16" rx="8" fill="#2E6F95"/>
+<path d="M715.7 74 V100 H618 V118" fill="none" stroke="#2E6F95" stroke-width="1.5"/>
+<circle cx="618" cy="120" r="4" fill="#2E6F95"/>
+<text x="610" y="150" class="f" font-size="13" fill="#5A7184">07/2025 – 05/2026</text>
+<text x="610" y="178" class="f" font-size="19" font-weight="700" fill="#13293D">Lucky Star Vietnam</text>
+<text x="610" y="202" class="f" font-size="15" font-weight="600" fill="#2E6F95">Data Analytics Engineer</text>
+<text x="610" y="232" class="f" font-size="14" fill="#5A7184">ERP and Excel pipelines into</text>
+<text x="610" y="253" class="f" font-size="14" fill="#5A7184">the warehouse, Power BI</text>
+<rect x="910.6" y="58" width="227.4" height="16" rx="8" fill="url(#now)"/>
+<path d="M1024.3 74 V100 H893 V118" fill="none" stroke="#2F9C8F" stroke-width="1.5"/>
+<circle cx="893" cy="120" r="4" fill="#2F9C8F"/>
+<text x="885" y="150" class="f" font-size="13" fill="#5A7184">05/2026 – now</text>
+<text x="885" y="178" class="f" font-size="19" font-weight="700" fill="#13293D">PNJ Group</text>
+<text x="885" y="202" class="f" font-size="15" font-weight="600" fill="#2F9C8F">Data Analytics Engineer</text>
+<text x="885" y="232" class="f" font-size="14" fill="#5A7184">Supply chain KPIs, PostgreSQL</text>
+<text x="885" y="253" class="f" font-size="14" fill="#5A7184">warehouse, FastAPI QC app</text>
+<line x1="40" y1="300" x2="1160" y2="300" stroke="#D3DFE8"/>
+<text x="60" y="362" class="f" font-size="34" font-weight="700" fill="#13293D">~12h</text>
+<text x="60" y="388" class="f" font-size="14" fill="#5A7184">per week saved for the PPC team</text>
+<text x="60" y="407" class="f" font-size="14" fill="#5A7184">on order tracing</text>
+<line x1="311" y1="324" x2="311" y2="410" stroke="#D3DFE8"/>
+<text x="335" y="362" class="f" font-size="34" font-weight="700" fill="#13293D">~200M</text>
+<text x="335" y="388" class="f" font-size="14" fill="#5A7184">scan records partitioned</text>
+<text x="335" y="407" class="f" font-size="14" fill="#5A7184">for fast queries</text>
+<line x1="586" y1="324" x2="586" y2="410" stroke="#D3DFE8"/>
+<text x="610" y="362" class="f" font-size="34" font-weight="700" fill="#13293D">~90%</text>
+<text x="610" y="388" class="f" font-size="14" fill="#5A7184">fewer manual progress</text>
+<text x="610" y="407" class="f" font-size="14" fill="#5A7184">inquiries</text>
+<line x1="861" y1="324" x2="861" y2="410" stroke="#D3DFE8"/>
+<text x="885" y="362" class="f" font-size="34" font-weight="700" fill="#13293D">3.95</text>
+<text x="885" y="388" class="f" font-size="14" fill="#5A7184">GPA out of 4.0, BSc Data</text>
+<text x="885" y="407" class="f" font-size="14" fill="#5A7184">Science at UEH</text>
+</svg>

@@ -1,119 +1,54 @@
-<div align="center">
-
-# Nguyen Thanh Vinh
-
-### Data Analyst • Business Intelligence
-
-Turning raw data into business decisions through analytics, automation, and scalable data solutions.
-
-<p>
-<a href="mailto:nguyenthanhvinh1234qn@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/in/thanhvinh04/">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="https://github.com/thanhvinh04">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<a href="https://thanhvinh04.vercel.app?src=github">
-<img src="https://img.shields.io/badge/Portfolio-22d3ee?style=for-the-badge&logo=vercel&logoColor=black"/>
-</a>
+<p align="center">
+  <img src="./assets/header.svg" width="100%" alt="Nguyen Thanh Vinh, Data Analytics Engineer. Sources flow from raw to staging to mart, then into Power BI and internal apps." />
 </p>
-
-</div>
-
----
-
-# 👋 About Me
-
-I'm a **Data Analyst** specializing in **Business Intelligence, Data Warehousing, and Supply Chain Analytics**.
-
-I build end-to-end data solutions—from data modeling and ETL pipelines to Power BI dashboards that help businesses make faster and better decisions.
-
----
-
-# 🚀 Core Expertise
-
-- 📊 Business Intelligence & KPI Dashboard
-- 🏗️ Data Warehouse & ETL Pipeline
-- 📦 Supply Chain Analytics
-- 🤖 Machine Learning for Business Applications
-- ⚡ Reporting Automation
-
----
-
-# 🛠 Data Pipeline
-
-```mermaid
-flowchart LR
-
-    REQ["🎯 Business Understanding<br/><sub>Gather Requirements • Define KPIs</sub>"]
-
-    SRC["📥 Data Sources<br/><sub>ERP • MES • API • SQL Server</sub>"]
-
-    PREP["🔄 Data Pipeline<br/><sub>Python • SQL • ETL • Data Cleaning</sub>"]
-
-    MODEL["🏛️ Data Modeling<br/><sub>Data Warehouse • Star Schema • DAX</sub>"]
-
-    BI["📊 Analytics & Visualization<br/><sub>Power BI • Looker Studio • Superset</sub>"]
-
-    ML["🤖 ML Applications<br/><sub>Forecasting • Classification</sub>"]
-
-    OPS["📡 Monitoring & Alerting<br/><sub>KPI Monitoring • Alerts • Data Quality</sub>"]
-
-    IMP["💼 Business Impact<br/><sub>Insights • Decisions • Process Improvement</sub>"]
-
-    REQ --> SRC
-    SRC --> PREP
-    PREP --> MODEL
-    MODEL --> BI
-    MODEL --> ML
-    BI --> OPS
-    ML --> OPS
-    OPS --> IMP
-
-    style REQ fill:#ffffff,stroke:#ef4444,stroke-width:2px,color:#0f172a
-    style SRC fill:#ffffff,stroke:#38bdf8,stroke-width:2px,color:#0f172a
-    style PREP fill:#ffffff,stroke:#6366f1,stroke-width:2px,color:#0f172a
-    style MODEL fill:#ffffff,stroke:#8b5cf6,stroke-width:2px,color:#0f172a
-    style BI fill:#ffffff,stroke:#f59e0b,stroke-width:2px,color:#0f172a
-    style ML fill:#ffffff,stroke:#ec4899,stroke-width:2px,color:#0f172a
-    style OPS fill:#ffffff,stroke:#06b6d4,stroke-width:2px,color:#0f172a
-    style IMP fill:#ffffff,stroke:#22c55e,stroke-width:2px,color:#0f172a
-```
-
-# 🐍 Contribution
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/thanhvinh04/thanhvinh04/output/github-contribution-grid-snake.svg"/>
+  <a href="https://thanhvinh04.vercel.app"><img src="https://img.shields.io/badge/Portfolio-thanhvinh04.vercel.app-2E6F95?style=flat-square" alt="Portfolio" /></a>
+  <a href="https://thanhvinh04.vercel.app/blog"><img src="https://img.shields.io/badge/Blog-Notes_on_data_work-2F9C8F?style=flat-square" alt="Blog" /></a>
+  <a href="https://www.linkedin.com/in/thanhvinh04/"><img src="https://img.shields.io/badge/LinkedIn-thanhvinh04-13293D?style=flat-square&logo=linkedin" alt="LinkedIn" /></a>
+  <a href="https://thanhvinh04.vercel.app/cv/Nguyen-Thanh-Vinh-Data-Analytics-Engineer.pdf"><img src="https://img.shields.io/badge/CV-Download_PDF-5A7184?style=flat-square" alt="CV" /></a>
 </p>
 
----
+## Hi, I'm Vinh
 
-# 🎓 Education
+I work between business and engineering. Most of my time goes into understanding an operational problem well enough to know what to build, then building it: KPIs, data models, pipelines, internal tools and reports.
 
-**University of Economics Ho Chi Minh City**
+Right now I'm the only data person in the Supply Chain department at **PNJ Group**, running a PostgreSQL warehouse (raw → staging → mart) with scheduled Python pipelines and an internal FastAPI app for QC and order tracking. Before that I came from the data science side, working on NLP and multimodal models, and I still use that background when a problem needs it.
 
-Bachelor of Data Science
+Most of what I know came from getting things wrong first. I write about that on [my blog](https://thanhvinh04.vercel.app/blog).
 
-GPA: **3.95 / 4.0**
+## Where I've worked
 
----
+<p align="center">
+  <img src="./assets/journey.svg" width="100%" alt="Timeline: Transcosmos Vietnam (Data Scientist Intern, 2024), Asia Flames (Data Analyst Intern, 2025), Lucky Star Vietnam (Data Analytics Engineer, 2025–2026), PNJ Group (Data Analytics Engineer, 2026–now). Impact: about 12 hours per week saved, about 200M records partitioned, about 90% fewer manual inquiries, GPA 3.95." />
+</p>
 
-# 🏆 Highlights
+## Selected projects
 
-- 🥇 1st Prize Business Analytics Competition
-- 🥈 2nd Prize Economics Debate Competition
----
+| Project | What it does | Built with |
+|---|---|---|
+| **Order traceability and WIP tracking** | Models the order lifecycle from confirmation to shipment for a garment factory's PPC team. Incremental loads use `LastUpdated` watermarks for ERP and a rolling window for Excel. Saved about 12h/week and cut manual progress inquiries by about 90%. | Power BI, Python, C#, SQL Server, dimensional modeling |
+| **Multimodal sarcasm detection** (UIT DS Challenge 2024) | Detects sarcasm across text and images by combining OCR, CLIP embeddings and a CNN with self-attention. | TensorFlow, CLIP, OCR, Python |
+| **Forecasting F1 race results** | Pulls race data from the FastF1 API with PySpark, engineers features such as pit-stop strategy and weather, then predicts results with XGBoost and Random Forest. | PySpark, FastF1, XGBoost |
 
-# 📫 Contact
+## Toolkit
 
-📍 Ho Chi Minh City, Vietnam
+<p align="center">
+  <img src="./assets/stack.svg" width="100%" alt="Toolkit by stage. Collect and move: Python, PySpark, C#, SQL, GTM/GA4. Store and model: PostgreSQL, SQL Server, dimensional modeling, Parquet. Serve and explain: Power BI, Looker Studio, Superset, FastAPI. Learn from data: NLP, TensorFlow, CLIP, OCR, XGBoost." />
+</p>
 
-📧 nguyenthanhvinh1234qn@gmail.com
+## Recent writing
 
-💼 Open to Data Analyst, Business Intelligence and Analytics Engineering opportunities.
+- [Chuyện mình chọn sai Grain](https://thanhvinh04.vercel.app/blog/chuyen-minh-chon-sai-grain): my first full data project lifecycle, and the cost of picking the wrong grain.
+- [Một Data System nhỏ cho phòng Cung ứng](https://thanhvinh04.vercel.app/blog/mot-data-platform-nho-cho-phong-cung-ung): three months as the only data person in a supply chain team.
+- [Đi tìm "bản ngã" nghề nghiệp](https://thanhvinh04.vercel.app/blog/di-tim-ban-nga-nghe-nghiep): naming the kind of data work I want to do.
+
+## Education and certifications
+
+- **BSc in Data Science**, University of Economics Ho Chi Minh City (UEH), 2022–2025. GPA 3.95/4.0
+- First Prize, Business Analytics Competition. Second Place, Economics Debate Competition
+- [IBM Data Science Professional Certificate](https://www.coursera.org/account/accomplishments/specialization/FFRFH38V4AYP) (Coursera)
+
+## Get in touch
+
+Want to talk about data warehouses, pipelines or BI? Reach me on [LinkedIn](https://www.linkedin.com/in/thanhvinh04/) or [Zalo](https://zalo.me/0862519793).
