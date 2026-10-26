@@ -27,7 +27,7 @@ Most of what I know came from getting things wrong first, and I write about that
 ## The journey so far
 
 <p align="center">
-  <img src="./assets/journey.svg" width="100%" alt="From data science intern at Transcosmos, to data analyst at Asia Flames, to data analytics engineer at Lucky Star Vietnam and now PNJ Group. About 12 hours a week given back to planners and about 90 percent fewer manual order follow-ups." />
+  <img src="./assets/journey.svg" width="100%" alt="Timeline: Transcosmos Vietnam (Data Scientist Intern, 2024), Asia Flames (Data Analyst Intern, 2025), Lucky Star Vietnam (Data Analytics Engineer, 2025–2026), PNJ Group (Data Analytics Engineer, 2026–now). Impact: about 12 hours per week saved, about 200M records partitioned, about 90% fewer manual inquiries, GPA 3.95." />
 </p>
 
 ## Work I'm proud of

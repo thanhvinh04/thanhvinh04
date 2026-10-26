@@ -36,14 +36,12 @@
 </g>
 
 <!-- Left: who and why -->
-<rect x="60" y="48" width="330" height="30" rx="15" fill="#2DD4BF" fill-opacity="0.16" stroke="#5EEAD4" stroke-opacity="0.6"/>
-<circle cx="80" cy="63" r="4" fill="#5EEAD4"/>
-<text x="94" y="68" class="f k" font-size="12" font-weight="700" fill="#99F6E4">DATA ANALYTICS ENGINEER · SUPPLY CHAIN</text>
-<text x="58" y="146" class="f" font-size="54" font-weight="800" fill="#FFFFFF">Nguyen Thanh Vinh</text>
-<text x="60" y="202" class="f" font-size="24" font-weight="500" fill="#E2E8F0">Between business and engineering.</text>
-<text x="60" y="238" class="f" font-size="24" font-weight="800" fill="url(#hl)">I build the systems behind the numbers.</text>
-<rect x="60" y="262" width="64" height="4" rx="2" fill="#FBBF24"/>
-<text x="60" y="298" class="f" font-size="16" fill="#C7D2FE">From messy operational problems to decisions people can trust.</text>
+<rect x="60" y="80" width="270" height="30" rx="15" fill="#2DD4BF" fill-opacity="0.16" stroke="#5EEAD4" stroke-opacity="0.6"/>
+<circle cx="80" cy="95" r="4" fill="#5EEAD4"/>
+<text x="195" y="100" text-anchor="middle" class="f k" font-size="12" font-weight="700" fill="#99F6E4">DATA ANALYTICS ENGINEER</text>
+<text x="58" y="176" class="f" font-size="54" font-weight="800" fill="#FFFFFF">Nguyen Thanh Vinh</text>
+<text x="60" y="226" class="f" font-size="24" font-weight="500" fill="#E2E8F0">Between business and engineering.</text>
+<text x="60" y="262" class="f" font-size="24" font-weight="800" fill="url(#hl)">I build the systems behind the numbers.</text>
 
 <!-- Right 1: scattered numbers -->
 <g class="c1"><g transform="rotate(-4 728 87)">
@@ -82,11 +80,4 @@
 <line x1="1028" y1="176" x2="1144" y2="176" stroke="#FFFFFF" stroke-opacity="0.07"/>
 <polyline class="chart" points="1030,224 1052,214 1074,218 1096,194 1118,182 1142,152" fill="none" stroke="#5EEAD4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="1142" cy="152" r="5" fill="#FFFFFF" stroke="#2DD4BF" stroke-width="2.5"/>
-
-<!-- Captions -->
-<text x="728" y="324" text-anchor="middle" class="f k" font-size="11.5" font-weight="700" fill="#FDA4AF">CHASING NUMBERS</text>
-<text x="840" y="324" text-anchor="middle" class="f" font-size="14" fill="#94A3B8">→</text>
-<text x="930" y="324" text-anchor="middle" class="f k" font-size="11.5" font-weight="700" fill="#FCD34D">ONE SYSTEM</text>
-<text x="1002" y="324" text-anchor="middle" class="f" font-size="14" fill="#94A3B8">→</text>
-<text x="1092" y="324" text-anchor="middle" class="f k" font-size="11.5" font-weight="700" fill="#99F6E4">BETTER DECISIONS</text>
 </svg>
