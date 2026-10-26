@@ -1,21 +1,22 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Nguyen Thanh Vinh, Data Analytics Engineer. I don't just want to deliver a number. I want to build the thing that produces it." />
+  <img src="./assets/header.svg" width="100%" alt="Nguyen Thanh Vinh, Data Analytics Engineer. Between business and engineering. I build the systems behind the numbers. Scattered numbers flow into one source of truth, which turns into better decisions." />
 </p>
 
 <p align="center">
   <a href="https://thanhvinh04.vercel.app"><img src="https://img.shields.io/badge/Portfolio-thanhvinh04.vercel.app-14B8A6?style=for-the-badge" alt="Portfolio" /></a>
   <a href="https://thanhvinh04.vercel.app/blog"><img src="https://img.shields.io/badge/Blog-Notes_on_data_work-F59E0B?style=for-the-badge" alt="Blog" /></a>
   <a href="https://www.linkedin.com/in/thanhvinh04/"><img src="https://img.shields.io/badge/LinkedIn-thanhvinh04-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://thanhvinh04.vercel.app/cv/Nguyen-Thanh-Vinh-Data-Analytics-Engineer.pdf"><img src="https://img.shields.io/badge/CV-Download-0A1A2F?style=for-the-badge" alt="CV" /></a>
 </p>
 
 ## Hi, I'm Vinh
 
-I want to do data work that sits close to the business and its operations, and to own the engineering behind it myself.
+A Data Analytics Engineer working between business and engineering. I like to understand an operational problem well enough to know what to build, then build it: KPIs, data models, pipelines, internal tools and reports.
 
-Not just taking a request and pulling a number. Not just a dashboard, or a pipeline built to close a ticket. I want to understand a problem deeply enough to know what is worth building, and be technical enough to build it, then keep it growing as the problem changes.
+🎓 **B.Sc. in Data Science**, University of Economics Ho Chi Minh City (UEH), 2022 – 2025 · **GPA 3.95/4.0**<br>
+🏆 **First Prize**, Business Analytics Competition · **Second Place**, Economics Debate Competition<br>
+📜 [IBM Data Science Professional Certificate](https://www.coursera.org/account/accomplishments/specialization/FFRFH38V4AYP)
 
-Today I'm the only data person in the Supply Chain department at **PNJ Group**.
+Most of what I know came from getting things wrong first, and I write about that on [the blog](https://thanhvinh04.vercel.app/blog).
 
 ## What I believe
 
@@ -32,12 +33,10 @@ Today I'm the only data person in the Supply Chain department at **PNJ Group**.
 ## Work I'm proud of
 
 - **Order traceability for a garment factory.** Planners no longer have to chase where an order is. They can see it, from confirmation to shipment.
-- **A small data system for Supply Chain at PNJ.** Gives the team a shared view of its goals and KPIs, and a system it can shape as its questions change.
+- **A small data system for a Supply Chain team.** Gives the team a shared view of its goals and KPIs, and a system it can shape as its questions change.
 - **Multimodal sarcasm detection** (UIT DS Challenge 2024). Helping machines understand what people mean, not just what they say.
 
 ## Writing
-
-Most of what I know came from getting things wrong first.
 
 - [Đi tìm "bản ngã" nghề nghiệp](https://thanhvinh04.vercel.app/blog/di-tim-ban-nga-nghe-nghiep): what kind of data work I want to do, and why.
 - [Một Data System nhỏ cho phòng Cung ứng](https://thanhvinh04.vercel.app/blog/mot-data-platform-nho-cho-phong-cung-ung): solve the business problem first, the tech comes second.

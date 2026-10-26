@@ -1,63 +1,92 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Nguyen Thanh Vinh, Data Analytics Engineer. I don't just want to deliver a number. I want to build the thing that produces it.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Nguyen Thanh Vinh, Data Analytics Engineer. Between business and engineering. I build the systems behind the numbers. Scattered numbers flow into one source of truth, which turns into better decisions.">
 <style>
 .f{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif}
+.m{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 .k{letter-spacing:1.6px}
-.d{animation:down 3.2s ease-in-out infinite}
-@keyframes down{0%{transform:translateY(0);opacity:0}10%{opacity:1}90%{opacity:1}100%{transform:translateY(222px);opacity:0}}
-.p{animation:pulse 2.4s ease-in-out infinite;transform-origin:800px 292px}
-@keyframes pulse{0%,100%{opacity:.25;transform:scale(1)}50%{opacity:.6;transform:scale(1.35)}}
-@media (prefers-reduced-motion:reduce){.d,.p{animation:none}.d{opacity:0}}
+.ring{animation:spin 14s linear infinite;transform-origin:930px 180px}
+@keyframes spin{to{transform:rotate(360deg)}}
+.glow{animation:breathe 3s ease-in-out infinite;transform-origin:930px 180px}
+@keyframes breathe{0%,100%{opacity:.35;transform:scale(1)}50%{opacity:.7;transform:scale(1.12)}}
+.c1{animation:bob 3.6s ease-in-out infinite}
+.c2{animation:bob 3.6s ease-in-out infinite;animation-delay:-1.2s}
+.c3{animation:bob 3.6s ease-in-out infinite;animation-delay:-2.4s}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+.chart{stroke-dasharray:180;stroke-dashoffset:180;animation:draw 4s ease-out infinite}
+@keyframes draw{0%{stroke-dashoffset:180}45%,85%{stroke-dashoffset:0}100%{stroke-dashoffset:0;opacity:0}}
+@media (prefers-reduced-motion:reduce){.ring,.glow,.c1,.c2,.c3,.chart{animation:none}.chart{stroke-dashoffset:0}}
 </style>
 <defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A1A2F"/><stop offset="1" stop-color="#123A5C"/></linearGradient>
-<radialGradient id="g1" cx="0.85" cy="0.1" r="0.5"><stop offset="0" stop-color="#2DD4BF" stop-opacity="0.28"/><stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/></radialGradient>
-<radialGradient id="g2" cx="0.05" cy="1" r="0.55"><stop offset="0" stop-color="#F59E0B" stop-opacity="0.20"/><stop offset="1" stop-color="#F59E0B" stop-opacity="0"/></radialGradient>
-<linearGradient id="hl" x1="0" x2="1"><stop offset="0" stop-color="#2DD4BF"/><stop offset="1" stop-color="#38BDF8"/></linearGradient>
-<linearGradient id="ln" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FB7185"/><stop offset="0.35" stop-color="#FBBF24"/><stop offset="0.7" stop-color="#38BDF8"/><stop offset="1" stop-color="#2DD4BF"/></linearGradient>
-<clipPath id="c"><rect x="0" y="0" width="1200" height="340" rx="22"/></clipPath>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1026"/><stop offset="0.5" stop-color="#1E1B4B"/><stop offset="1" stop-color="#0F4C4A"/></linearGradient>
+<radialGradient id="gp" cx="0.02" cy="0" r="0.55"><stop offset="0" stop-color="#EC4899" stop-opacity="0.35"/><stop offset="1" stop-color="#EC4899" stop-opacity="0"/></radialGradient>
+<radialGradient id="gt" cx="0.78" cy="0.5" r="0.45"><stop offset="0" stop-color="#2DD4BF" stop-opacity="0.35"/><stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/></radialGradient>
+<radialGradient id="ga" cx="0.35" cy="1.1" r="0.5"><stop offset="0" stop-color="#F59E0B" stop-opacity="0.25"/><stop offset="1" stop-color="#F59E0B" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#FFFFFF" fill-opacity="0.07"/></pattern>
+<linearGradient id="hl" x1="0" x2="1"><stop offset="0" stop-color="#5EEAD4"/><stop offset="0.55" stop-color="#38BDF8"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+<radialGradient id="core" cx="0.35" cy="0.3" r="0.8"><stop offset="0" stop-color="#99F6E4"/><stop offset="0.55" stop-color="#2DD4BF"/><stop offset="1" stop-color="#0E7490"/></radialGradient>
+<linearGradient id="flow" x1="0" x2="1"><stop offset="0" stop-color="#FB7185"/><stop offset="1" stop-color="#FBBF24"/></linearGradient>
+<clipPath id="c"><rect width="1200" height="360" rx="22"/></clipPath>
 </defs>
+
 <g clip-path="url(#c)">
-<rect width="1200" height="340" fill="url(#bg)"/>
-<rect width="1200" height="340" fill="url(#g1)"/>
-<rect width="1200" height="340" fill="url(#g2)"/>
+<rect width="1200" height="360" fill="url(#bg)"/>
+<rect width="1200" height="360" fill="url(#gp)"/>
+<rect width="1200" height="360" fill="url(#gt)"/>
+<rect width="1200" height="360" fill="url(#ga)"/>
+<rect width="1200" height="360" fill="url(#dots)"/>
 </g>
 
-<rect x="60" y="52" width="330" height="30" rx="15" fill="#2DD4BF" fill-opacity="0.14" stroke="#2DD4BF" stroke-opacity="0.5"/>
-<circle cx="80" cy="67" r="4" fill="#2DD4BF"/>
-<text x="94" y="72" class="f k" font-size="12" font-weight="700" fill="#5EEAD4">DATA ANALYTICS ENGINEER · SUPPLY CHAIN</text>
+<!-- Left: who and why -->
+<rect x="60" y="48" width="330" height="30" rx="15" fill="#2DD4BF" fill-opacity="0.16" stroke="#5EEAD4" stroke-opacity="0.6"/>
+<circle cx="80" cy="63" r="4" fill="#5EEAD4"/>
+<text x="94" y="68" class="f k" font-size="12" font-weight="700" fill="#99F6E4">DATA ANALYTICS ENGINEER · SUPPLY CHAIN</text>
+<text x="58" y="146" class="f" font-size="54" font-weight="800" fill="#FFFFFF">Nguyen Thanh Vinh</text>
+<text x="60" y="202" class="f" font-size="24" font-weight="500" fill="#E2E8F0">Between business and engineering.</text>
+<text x="60" y="238" class="f" font-size="24" font-weight="800" fill="url(#hl)">I build the systems behind the numbers.</text>
+<rect x="60" y="262" width="64" height="4" rx="2" fill="#FBBF24"/>
+<text x="60" y="298" class="f" font-size="16" fill="#C7D2FE">From messy operational problems to decisions people can trust.</text>
 
-<text x="58" y="142" class="f" font-size="52" font-weight="800" fill="#FFFFFF">Nguyen Thanh Vinh</text>
-<text x="60" y="196" class="f" font-size="24" font-weight="500" fill="#E2E8F0">I don't just want to deliver a number.</text>
-<text x="60" y="230" class="f" font-size="24" font-weight="700" fill="url(#hl)">I want to build the thing that produces it.</text>
-<rect x="60" y="254" width="56" height="3" rx="1.5" fill="#FBBF24"/>
-<text x="60" y="286" class="f" font-size="16" fill="#9FB3C8">Close to business and operations, owning the engineering end to end.</text>
+<!-- Right 1: scattered numbers -->
+<g class="c1"><g transform="rotate(-4 728 87)">
+<rect x="640" y="70" width="176" height="34" rx="10" fill="#FB7185" fill-opacity="0.16" stroke="#FB7185" stroke-opacity="0.75"/>
+<text x="656" y="92" class="f" font-size="13.5" fill="#FECDD3">Which number is right?</text>
+</g></g>
+<g class="c2"><g transform="rotate(3 714 177)">
+<rect x="626" y="160" width="176" height="34" rx="10" fill="#FBBF24" fill-opacity="0.14" stroke="#FBBF24" stroke-opacity="0.75"/>
+<text x="642" y="182" class="f" font-size="13.5" fill="#FDE68A">Where's order #812?</text>
+</g></g>
+<g class="c3"><g transform="rotate(-2 734 267)">
+<rect x="646" y="250" width="176" height="34" rx="10" fill="#FB7185" fill-opacity="0.16" stroke="#FB7185" stroke-opacity="0.75"/>
+<text x="662" y="272" class="m" font-size="12.5" fill="#FECDD3">report_v7_final.xlsx</text>
+</g></g>
 
-<line x1="800" y1="70" x2="800" y2="292" stroke="url(#ln)" stroke-width="2" stroke-dasharray="3 6"/>
+<path id="p1" d="M818 88 C 850 88, 848 168, 874 174" fill="none" stroke="url(#flow)" stroke-opacity="0.45" stroke-width="1.5" stroke-dasharray="3 5"/>
+<path id="p2" d="M804 178 C 830 178, 846 180, 872 180" fill="none" stroke="url(#flow)" stroke-opacity="0.45" stroke-width="1.5" stroke-dasharray="3 5"/>
+<path id="p3" d="M824 266 C 856 266, 850 194, 874 186" fill="none" stroke="url(#flow)" stroke-opacity="0.45" stroke-width="1.5" stroke-dasharray="3 5"/>
+<circle r="4" fill="#FB7185"><animateMotion dur="2.4s" repeatCount="indefinite"><mpath href="#p1"/></animateMotion></circle>
+<circle r="4" fill="#FBBF24"><animateMotion dur="2.4s" begin="0.8s" repeatCount="indefinite"><mpath href="#p2"/></animateMotion></circle>
+<circle r="4" fill="#FB7185"><animateMotion dur="2.4s" begin="1.6s" repeatCount="indefinite"><mpath href="#p3"/></animateMotion></circle>
 
-<rect x="770" y="42" width="380" height="56" rx="14" fill="#FFFFFF" fill-opacity="0.05" stroke="#FB7185" stroke-opacity="0.45"/>
-<circle cx="800" cy="70" r="14" fill="#FB7185"/>
-<text x="800" y="75" text-anchor="middle" class="f" font-size="13" font-weight="800" fill="#0A1A2F">1</text>
-<text x="828" y="64" class="f k" font-size="11" font-weight="700" fill="#FDA4AF">THE PROBLEM</text>
-<text x="828" y="85" class="f" font-size="16" fill="#F1F5F9">Teams chasing numbers by hand</text>
+<!-- Right 2: one source of truth -->
+<circle class="glow" cx="930" cy="180" r="66" fill="#2DD4BF" fill-opacity="0.35"/>
+<circle class="ring" cx="930" cy="180" r="72" fill="none" stroke="#FBBF24" stroke-width="2" stroke-dasharray="10 8"/>
+<circle cx="930" cy="180" r="56" fill="url(#core)"/>
+<text x="930" y="176" text-anchor="middle" class="f k" font-size="12.5" font-weight="800" fill="#042F2E">ONE SOURCE</text>
+<text x="930" y="194" text-anchor="middle" class="f k" font-size="12.5" font-weight="800" fill="#042F2E">OF TRUTH</text>
 
-<rect x="770" y="116" width="380" height="56" rx="14" fill="#FFFFFF" fill-opacity="0.05" stroke="#FBBF24" stroke-opacity="0.45"/>
-<circle cx="800" cy="144" r="14" fill="#FBBF24"/>
-<text x="800" y="149" text-anchor="middle" class="f" font-size="13" font-weight="800" fill="#0A1A2F">2</text>
-<text x="828" y="138" class="f k" font-size="11" font-weight="700" fill="#FCD34D">UNDERSTAND</text>
-<text x="828" y="159" class="f" font-size="16" fill="#F1F5F9">Where it breaks, and who it hurts</text>
+<!-- Right 3: better decisions -->
+<line x1="1002" y1="180" x2="1012" y2="180" stroke="#5EEAD4" stroke-width="2"/>
+<rect x="1012" y="108" width="148" height="144" rx="14" fill="#2DD4BF" fill-opacity="0.16" stroke="#5EEAD4" stroke-opacity="0.8"/>
+<text x="1028" y="132" class="f k" font-size="11" font-weight="700" fill="#99F6E4">DECISIONS</text>
+<line x1="1028" y1="232" x2="1144" y2="232" stroke="#FFFFFF" stroke-opacity="0.15"/>
+<line x1="1028" y1="204" x2="1144" y2="204" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<line x1="1028" y1="176" x2="1144" y2="176" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<polyline class="chart" points="1030,224 1052,214 1074,218 1096,194 1118,182 1142,152" fill="none" stroke="#5EEAD4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1142" cy="152" r="5" fill="#FFFFFF" stroke="#2DD4BF" stroke-width="2.5"/>
 
-<rect x="770" y="190" width="380" height="56" rx="14" fill="#FFFFFF" fill-opacity="0.05" stroke="#38BDF8" stroke-opacity="0.45"/>
-<circle cx="800" cy="218" r="14" fill="#38BDF8"/>
-<text x="800" y="223" text-anchor="middle" class="f" font-size="13" font-weight="800" fill="#0A1A2F">3</text>
-<text x="828" y="212" class="f k" font-size="11" font-weight="700" fill="#7DD3FC">BUILD</text>
-<text x="828" y="233" class="f" font-size="16" fill="#F1F5F9">A system that produces the number</text>
-
-<circle class="p" cx="800" cy="292" r="20" fill="#2DD4BF"/>
-<rect x="770" y="264" width="380" height="56" rx="14" fill="#2DD4BF" fill-opacity="0.12" stroke="#2DD4BF" stroke-opacity="0.7"/>
-<circle cx="800" cy="292" r="14" fill="#2DD4BF"/>
-<text x="800" y="297" text-anchor="middle" class="f" font-size="13" font-weight="800" fill="#0A1A2F">4</text>
-<text x="828" y="286" class="f k" font-size="11" font-weight="700" fill="#5EEAD4">IMPACT</text>
-<text x="828" y="307" class="f" font-size="16" font-weight="600" fill="#FFFFFF">Better decisions, hours given back</text>
-
-<circle class="d" cx="800" cy="70" r="5" fill="#FFFFFF" opacity="0"/>
+<!-- Captions -->
+<text x="728" y="324" text-anchor="middle" class="f k" font-size="11.5" font-weight="700" fill="#FDA4AF">CHASING NUMBERS</text>
+<text x="840" y="324" text-anchor="middle" class="f" font-size="14" fill="#94A3B8">→</text>
+<text x="930" y="324" text-anchor="middle" class="f k" font-size="11.5" font-weight="700" fill="#FCD34D">ONE SYSTEM</text>
+<text x="1002" y="324" text-anchor="middle" class="f" font-size="14" fill="#94A3B8">→</text>
+<text x="1092" y="324" text-anchor="middle" class="f k" font-size="11.5" font-weight="700" fill="#99F6E4">BETTER DECISIONS</text>
 </svg>
